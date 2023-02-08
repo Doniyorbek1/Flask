@@ -8,7 +8,7 @@ def hello_world():
 
 @app.route('/salom')
 def salom():
-    return "<h1>salom qalaysiz <h1>"
+    return "<h1>salom qalaysiz! asd<h1>"
 
 
 if __name__ == '__main__':
