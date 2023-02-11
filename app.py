@@ -5,10 +5,11 @@ app = Flask(__name__)
 
 
 def get_data():
-    response = requests.get("https://nbu.uz/uz/exchange-rates/json/")
+    # response = requests.get("https://nbu.uz/uz/exchange-rates/json/")
     
-    usa = response.json()[-1]
-    usd = float(usa['nbu_buy_price'])
+    # usa = response.json()[-1]
+    # usd = float(usa['nbu_buy_price'])
+    usd = 11380.7
     return usd
 
 @app.route('/')
