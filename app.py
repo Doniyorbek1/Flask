@@ -11,6 +11,9 @@ def get_data():
     usd = float(usa['nbu_buy_price'])
     return usd
 
+@app.route('/')
+def home():
+    return 'hi welcome usd to uzs'
 
 
 @app.route('/api/to-usd', methods=['GET'])
